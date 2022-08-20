@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Real-time 3D Reconstruction with Kimera library and RealSense D435 Depth Camera: 
+title:  Real-time 3D Reconstruction with Kimera library and RealSense D435 Depth Camera
 categories: [CV]
 excerpt: This blog post describes the steps to setup D435 camera and Kimera library to perform 3D live reconstruction.
 ---
