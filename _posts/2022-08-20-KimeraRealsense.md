@@ -4,7 +4,7 @@ title:  Real-time 3D Reconstruction with Kimera library and RealSense D435 Depth
 categories: [CV]
 excerpt: This blog post describes the steps to setup D435 camera and Kimera library to perform 3D live reconstruction.
 ---
-## 
+## Introduction
 
 This markdown file explains the steps to generate a 3D real-time mesh reconstruction using Intel RealSense depth camera and Kimera. [Kimera](https://github.com/MIT-SPARK/Kimera) is a C++ library for real-time metric-semantic visual Simultaneous Localizaiton and Mapping (SLAM). It consists of four key components: Visual Inertial Odometry ([Kimera-VIO](https://github.com/MIT-SPARK/Kimera-VIO)), mesh module reconstruction ([Kimera-Mesher](https://github.com/MIT-SPARK/Kimera-VIO)), robust pose graph optimization ([Kimera-RPGO](https://github.com/MIT-SPARK/Kimera-RPGO)), and 3D semantic segmentaion ([Kimera-Semantics](https://github.com/MIT-SPARK/Kimera-Semantics)). Please, refer to their [paper](https://arxiv.org/pdf/1910.02490.pdf) to read more about how all these key components work together. It is a lightweight, robust and efficient library that works on CPU. 
 
